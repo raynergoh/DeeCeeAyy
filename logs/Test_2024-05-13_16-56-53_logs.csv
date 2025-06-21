@@ -1,0 +1,38 @@
+2024-05-13 16:56:53,027: asyncio: INFO: [Test] Executing the initialize lifecycle method
+2024-05-13 16:56:54,208: root: INFO: Current backtesting datetime 2018-01-02 08:30:00-05:00
+2024-05-13 16:56:54,211: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 16:56:54,212: root: INFO: Current backtesting datetime 2018-01-02 09:30:00-05:00
+2024-05-13 16:56:54,212: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 16:56:54,213: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 16:56:54[0m
+2024-05-13 16:56:59,219: asyncio: ERROR: [Test] 'value'
+2024-05-13 16:56:59,226: asyncio: ERROR: [Test] Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 923, in run
+    self._run_trading_session()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 871, in _run_trading_session
+    self._on_trading_iteration()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/tools/decorators.py", line 34, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raynergoh/tradingbot/lumibotv2/tbot.py", line 31, in on_trading_iteration
+    currentPE = row["value"]
+                ~~~^^^^^^^^^
+KeyError: 'value'
+
+2024-05-13 16:56:59,227: asyncio: INFO: [Test] Executing the on_bot_crash event method
+2024-05-13 16:56:59,231: root: INFO: Backtesting finished
+2024-05-13 16:56:59,634: asyncio: WARNING: [Test] Cannot plot returns because the strategy returns are missing
+2024-05-13 16:56:59,770: asyncio: WARNING: [Test] Cannot create a tearsheet because the strategy returns are missing
+2024-05-13 16:56:59,770: backtest_stats: INFO: Backtest took 0:00:06.745975 for a speed of 0.000

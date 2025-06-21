@@ -1,0 +1,1175 @@
+2024-05-13 15:43:08,283: asyncio: INFO: [Test] Executing the initialize lifecycle method
+2024-05-13 15:43:08,809: root: INFO: Current backtesting datetime 2018-01-02 08:30:00-05:00
+2024-05-13 15:43:08,811: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:08,811: root: INFO: Current backtesting datetime 2018-01-02 09:30:00-05:00
+2024-05-13 15:43:08,811: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:08,812: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:08[0m
+2024-05-13 15:43:08,812: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,207: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,208: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8889100587015175 SPY buy | with status new[0m
+2024-05-13 15:43:09,209: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,209: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,209: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,210: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,210: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8889100587015175 SPY buy | at price $267.84 with status fill[0m
+2024-05-13 15:43:09,212: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,213: root: INFO: Current backtesting datetime 2018-01-02 16:00:00-05:00
+2024-05-13 15:43:09,213: root: INFO: Current backtesting datetime 2018-02-01 09:30:00-05:00
+2024-05-13 15:43:09,213: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,213: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,214: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,214: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.7529285920947046 SPY buy | with status new[0m
+2024-05-13 15:43:09,216: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,216: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,216: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,217: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,217: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.7529285920947046 SPY buy | at price $281.07 with status fill[0m
+2024-05-13 15:43:09,218: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,219: root: INFO: Current backtesting datetime 2018-02-01 16:00:00-05:00
+2024-05-13 15:43:09,219: root: INFO: Current backtesting datetime 2018-03-03 09:30:00-05:00
+2024-05-13 15:43:09,220: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,220: root: INFO: Current backtesting datetime 2018-03-03 09:29:00-05:00
+2024-05-13 15:43:09,221: root: INFO: Current backtesting datetime 2018-03-03 09:29:00-05:00
+2024-05-13 15:43:09,221: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,221: root: INFO: Current backtesting datetime 2018-03-05 08:30:00-05:00
+2024-05-13 15:43:09,221: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,222: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,222: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,222: root: INFO: Current backtesting datetime 2018-03-05 09:30:00-05:00
+2024-05-13 15:43:09,222: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,223: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,223: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,224: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,224: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8900968430566523 SPY buy | with status new[0m
+2024-05-13 15:43:09,226: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,226: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,226: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,227: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,227: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8900968430566523 SPY buy | at price $267.73 with status fill[0m
+2024-05-13 15:43:09,229: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,229: root: INFO: Current backtesting datetime 2018-03-05 16:00:00-05:00
+2024-05-13 15:43:09,229: root: INFO: Current backtesting datetime 2018-04-04 09:30:00-05:00
+2024-05-13 15:43:09,230: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,230: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,230: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,231: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.9138229904433746 SPY buy | with status new[0m
+2024-05-13 15:43:09,232: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,233: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,233: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,233: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,233: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.9138229904433746 SPY buy | at price $265.55 with status fill[0m
+2024-05-13 15:43:09,235: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,235: root: INFO: Current backtesting datetime 2018-04-04 15:00:00-05:00
+2024-05-13 15:43:09,235: root: INFO: Current backtesting datetime 2018-05-04 09:30:00-05:00
+2024-05-13 15:43:09,236: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,236: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,236: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,236: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.9587247325200003 SPY buy | with status new[0m
+2024-05-13 15:43:09,238: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,238: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,238: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,239: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,239: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.9587247325200003 SPY buy | at price $261.52 with status fill[0m
+2024-05-13 15:43:09,241: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,241: root: INFO: Current backtesting datetime 2018-05-04 15:00:00-05:00
+2024-05-13 15:43:09,241: root: INFO: Current backtesting datetime 2018-06-03 09:30:00-05:00
+2024-05-13 15:43:09,241: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,242: root: INFO: Current backtesting datetime 2018-06-03 09:29:00-05:00
+2024-05-13 15:43:09,242: root: INFO: Current backtesting datetime 2018-06-03 09:29:00-05:00
+2024-05-13 15:43:09,242: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,243: root: INFO: Current backtesting datetime 2018-06-04 07:30:00-05:00
+2024-05-13 15:43:09,243: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,243: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,243: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,244: root: INFO: Current backtesting datetime 2018-06-04 08:30:00-05:00
+2024-05-13 15:43:09,244: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,245: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,245: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,245: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,245: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8131819446780937 SPY buy | with status new[0m
+2024-05-13 15:43:09,247: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,247: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,247: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,248: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,248: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8131819446780937 SPY buy | at price $275.05 with status fill[0m
+2024-05-13 15:43:09,250: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,250: root: INFO: Current backtesting datetime 2018-06-04 15:00:00-05:00
+2024-05-13 15:43:09,250: root: INFO: Current backtesting datetime 2018-07-04 08:30:00-05:00
+2024-05-13 15:43:09,250: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,251: root: INFO: Current backtesting datetime 2018-07-04 08:29:00-05:00
+2024-05-13 15:43:09,251: root: INFO: Current backtesting datetime 2018-07-04 08:29:00-05:00
+2024-05-13 15:43:09,251: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,252: root: INFO: Current backtesting datetime 2018-07-05 07:30:00-05:00
+2024-05-13 15:43:09,252: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,252: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,252: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,252: root: INFO: Current backtesting datetime 2018-07-05 08:30:00-05:00
+2024-05-13 15:43:09,252: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,253: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,253: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,254: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,254: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8328535478005112 SPY buy | with status new[0m
+2024-05-13 15:43:09,256: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,256: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,256: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,257: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,257: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8328535478005112 SPY buy | at price $273.14 with status fill[0m
+2024-05-13 15:43:09,259: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,259: root: INFO: Current backtesting datetime 2018-07-05 15:00:00-05:00
+2024-05-13 15:43:09,259: root: INFO: Current backtesting datetime 2018-08-04 08:30:00-05:00
+2024-05-13 15:43:09,260: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,260: root: INFO: Current backtesting datetime 2018-08-04 08:29:00-05:00
+2024-05-13 15:43:09,260: root: INFO: Current backtesting datetime 2018-08-04 08:29:00-05:00
+2024-05-13 15:43:09,260: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,261: root: INFO: Current backtesting datetime 2018-08-06 07:30:00-05:00
+2024-05-13 15:43:09,261: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,261: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,262: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,262: root: INFO: Current backtesting datetime 2018-08-06 08:30:00-05:00
+2024-05-13 15:43:09,262: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,263: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,263: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,263: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,264: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.7112569460297555 SPY buy | with status new[0m
+2024-05-13 15:43:09,266: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,266: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,266: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,266: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,266: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.7112569460297555 SPY buy | at price $285.39 with status fill[0m
+2024-05-13 15:43:09,268: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,268: root: INFO: Current backtesting datetime 2018-08-06 15:00:00-05:00
+2024-05-13 15:43:09,268: root: INFO: Current backtesting datetime 2018-09-05 08:30:00-05:00
+2024-05-13 15:43:09,269: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,269: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,269: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,270: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.676000954093458 SPY buy | with status new[0m
+2024-05-13 15:43:09,271: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,271: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,271: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,272: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,272: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.676000954093458 SPY buy | at price $289.15 with status fill[0m
+2024-05-13 15:43:09,274: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,274: root: INFO: Current backtesting datetime 2018-09-05 15:00:00-05:00
+2024-05-13 15:43:09,274: root: INFO: Current backtesting datetime 2018-10-05 08:30:00-05:00
+2024-05-13 15:43:09,275: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,275: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,275: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,276: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.671012644627301 SPY buy | with status new[0m
+2024-05-13 15:43:09,277: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,277: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,278: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,278: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,278: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.671012644627301 SPY buy | at price $289.69 with status fill[0m
+2024-05-13 15:43:09,280: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,280: root: INFO: Current backtesting datetime 2018-10-05 15:00:00-05:00
+2024-05-13 15:43:09,280: root: INFO: Current backtesting datetime 2018-11-04 08:30:00-05:00
+2024-05-13 15:43:09,280: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,281: root: INFO: Current backtesting datetime 2018-11-04 08:29:00-05:00
+2024-05-13 15:43:09,281: root: INFO: Current backtesting datetime 2018-11-04 08:29:00-05:00
+2024-05-13 15:43:09,281: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,282: root: INFO: Current backtesting datetime 2018-11-05 08:30:00-05:00
+2024-05-13 15:43:09,282: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,282: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,282: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,283: root: INFO: Current backtesting datetime 2018-11-05 09:30:00-05:00
+2024-05-13 15:43:09,283: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,283: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,283: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,284: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,284: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.840132332290387 SPY buy | with status new[0m
+2024-05-13 15:43:09,286: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,286: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,286: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,286: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,287: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.840132332290387 SPY buy | at price $272.44 with status fill[0m
+2024-05-13 15:43:09,288: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,289: root: INFO: Current backtesting datetime 2018-11-05 16:00:00-05:00
+2024-05-13 15:43:09,289: root: INFO: Current backtesting datetime 2018-12-05 09:30:00-05:00
+2024-05-13 15:43:09,289: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,290: root: INFO: Current backtesting datetime 2018-12-05 09:29:00-05:00
+2024-05-13 15:43:09,290: root: INFO: Current backtesting datetime 2018-12-05 09:29:00-05:00
+2024-05-13 15:43:09,290: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,290: root: INFO: Current backtesting datetime 2018-12-06 08:30:00-05:00
+2024-05-13 15:43:09,290: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,291: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,291: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,291: root: INFO: Current backtesting datetime 2018-12-06 09:30:00-05:00
+2024-05-13 15:43:09,291: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,292: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,292: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,292: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,293: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.9097684283676 SPY buy | with status new[0m
+2024-05-13 15:43:09,294: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,295: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,295: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,295: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,295: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.9097684283676 SPY buy | at price $265.92 with status fill[0m
+2024-05-13 15:43:09,297: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,297: root: INFO: Current backtesting datetime 2018-12-06 16:00:00-05:00
+2024-05-13 15:43:09,297: root: INFO: Current backtesting datetime 2019-01-05 09:30:00-05:00
+2024-05-13 15:43:09,297: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,298: root: INFO: Current backtesting datetime 2019-01-05 09:29:00-05:00
+2024-05-13 15:43:09,298: root: INFO: Current backtesting datetime 2019-01-05 09:29:00-05:00
+2024-05-13 15:43:09,298: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,299: root: INFO: Current backtesting datetime 2019-01-07 08:30:00-05:00
+2024-05-13 15:43:09,299: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,299: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,299: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,299: root: INFO: Current backtesting datetime 2019-01-07 09:30:00-05:00
+2024-05-13 15:43:09,299: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,300: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,300: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,301: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,301: asyncio: INFO: [Test] [32mNew order was created: market order of | 3.06211425884382 SPY buy | with status new[0m
+2024-05-13 15:43:09,303: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,303: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,303: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,303: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,303: asyncio: INFO: [Test] [32mOrder was filled: market order of | 3.06211425884382 SPY buy | at price $252.69 with status fill[0m
+2024-05-13 15:43:09,305: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,305: root: INFO: Current backtesting datetime 2019-01-07 16:00:00-05:00
+2024-05-13 15:43:09,306: root: INFO: Current backtesting datetime 2019-02-06 09:30:00-05:00
+2024-05-13 15:43:09,306: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,306: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,307: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,307: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8364882704847654 SPY buy | with status new[0m
+2024-05-13 15:43:09,309: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,309: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,309: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,309: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,309: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8364882704847654 SPY buy | at price $272.79 with status fill[0m
+2024-05-13 15:43:09,311: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,311: root: INFO: Current backtesting datetime 2019-02-06 16:00:00-05:00
+2024-05-13 15:43:09,311: root: INFO: Current backtesting datetime 2019-03-08 09:30:00-05:00
+2024-05-13 15:43:09,312: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,312: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,312: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,313: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.83492948128488 SPY buy | with status new[0m
+2024-05-13 15:43:09,314: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,314: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,314: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,315: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,315: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.83492948128488 SPY buy | at price $272.94 with status fill[0m
+2024-05-13 15:43:09,316: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,316: root: INFO: Current backtesting datetime 2019-03-08 16:00:00-05:00
+2024-05-13 15:43:09,317: root: INFO: Current backtesting datetime 2019-04-07 09:30:00-05:00
+2024-05-13 15:43:09,317: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,318: root: INFO: Current backtesting datetime 2019-04-07 09:29:00-05:00
+2024-05-13 15:43:09,318: root: INFO: Current backtesting datetime 2019-04-07 09:29:00-05:00
+2024-05-13 15:43:09,318: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,318: root: INFO: Current backtesting datetime 2019-04-08 07:30:00-05:00
+2024-05-13 15:43:09,318: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,319: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,319: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,319: root: INFO: Current backtesting datetime 2019-04-08 08:30:00-05:00
+2024-05-13 15:43:09,319: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,320: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,320: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,320: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,321: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.6893009045609335 SPY buy | with status new[0m
+2024-05-13 15:43:09,323: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,323: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,323: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,323: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,324: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.6893009045609335 SPY buy | at price $287.72 with status fill[0m
+2024-05-13 15:43:09,325: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,326: root: INFO: Current backtesting datetime 2019-04-08 15:00:00-05:00
+2024-05-13 15:43:09,326: root: INFO: Current backtesting datetime 2019-05-08 08:30:00-05:00
+2024-05-13 15:43:09,326: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,326: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,327: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,327: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.712777862565796 SPY buy | with status new[0m
+2024-05-13 15:43:09,329: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,329: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,329: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,329: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,330: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.712777862565796 SPY buy | at price $285.23 with status fill[0m
+2024-05-13 15:43:09,331: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,331: root: INFO: Current backtesting datetime 2019-05-08 15:00:00-05:00
+2024-05-13 15:43:09,332: root: INFO: Current backtesting datetime 2019-06-07 08:30:00-05:00
+2024-05-13 15:43:09,332: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,333: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,333: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,333: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.7061367445299456 SPY buy | with status new[0m
+2024-05-13 15:43:09,335: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,335: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,335: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,336: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,336: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.7061367445299456 SPY buy | at price $285.93 with status fill[0m
+2024-05-13 15:43:09,338: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,338: root: INFO: Current backtesting datetime 2019-06-07 15:00:00-05:00
+2024-05-13 15:43:09,338: root: INFO: Current backtesting datetime 2019-07-07 08:30:00-05:00
+2024-05-13 15:43:09,338: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,339: root: INFO: Current backtesting datetime 2019-07-07 08:29:00-05:00
+2024-05-13 15:43:09,339: root: INFO: Current backtesting datetime 2019-07-07 08:29:00-05:00
+2024-05-13 15:43:09,339: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,340: root: INFO: Current backtesting datetime 2019-07-08 07:30:00-05:00
+2024-05-13 15:43:09,340: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,340: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,340: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,341: root: INFO: Current backtesting datetime 2019-07-08 08:30:00-05:00
+2024-05-13 15:43:09,341: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,342: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,342: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,342: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,343: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.6181418324805183 SPY buy | with status new[0m
+2024-05-13 15:43:09,345: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,345: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,345: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,345: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,345: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.6181418324805183 SPY buy | at price $295.54 with status fill[0m
+2024-05-13 15:43:09,347: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,347: root: INFO: Current backtesting datetime 2019-07-08 15:00:00-05:00
+2024-05-13 15:43:09,347: root: INFO: Current backtesting datetime 2019-08-07 08:30:00-05:00
+2024-05-13 15:43:09,348: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,348: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,349: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,349: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.6716582852990687 SPY buy | with status new[0m
+2024-05-13 15:43:09,351: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,351: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,351: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,351: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,351: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.6716582852990687 SPY buy | at price $289.62 with status fill[0m
+2024-05-13 15:43:09,353: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,353: root: INFO: Current backtesting datetime 2019-08-07 15:00:00-05:00
+2024-05-13 15:43:09,353: root: INFO: Current backtesting datetime 2019-09-06 08:30:00-05:00
+2024-05-13 15:43:09,353: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,354: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,354: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,354: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.595048545116837 SPY buy | with status new[0m
+2024-05-13 15:43:09,356: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,356: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,356: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,356: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,357: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.595048545116837 SPY buy | at price $298.17 with status fill[0m
+2024-05-13 15:43:09,358: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,358: root: INFO: Current backtesting datetime 2019-09-06 15:00:00-05:00
+2024-05-13 15:43:09,358: root: INFO: Current backtesting datetime 2019-10-06 08:30:00-05:00
+2024-05-13 15:43:09,359: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,359: root: INFO: Current backtesting datetime 2019-10-06 08:29:00-05:00
+2024-05-13 15:43:09,360: root: INFO: Current backtesting datetime 2019-10-06 08:29:00-05:00
+2024-05-13 15:43:09,360: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,360: root: INFO: Current backtesting datetime 2019-10-07 07:30:00-05:00
+2024-05-13 15:43:09,360: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,361: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,361: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,361: root: INFO: Current backtesting datetime 2019-10-07 08:30:00-05:00
+2024-05-13 15:43:09,361: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,362: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,362: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,363: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,363: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.65862299623895 SPY buy | with status new[0m
+2024-05-13 15:43:09,365: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,365: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,365: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,366: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,366: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.65862299623895 SPY buy | at price $291.04 with status fill[0m
+2024-05-13 15:43:09,367: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,368: root: INFO: Current backtesting datetime 2019-10-07 15:00:00-05:00
+2024-05-13 15:43:09,368: root: INFO: Current backtesting datetime 2019-11-06 08:30:00-05:00
+2024-05-13 15:43:09,368: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,369: root: INFO: Current backtesting datetime 2019-11-06 08:29:00-05:00
+2024-05-13 15:43:09,369: root: INFO: Current backtesting datetime 2019-11-06 08:29:00-05:00
+2024-05-13 15:43:09,369: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,369: root: INFO: Current backtesting datetime 2019-11-06 08:30:00-05:00
+2024-05-13 15:43:09,370: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,370: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,370: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,371: root: INFO: Current backtesting datetime 2019-11-06 09:30:00-05:00
+2024-05-13 15:43:09,371: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,371: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,371: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,372: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,372: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.5201630544880977 SPY buy | with status new[0m
+2024-05-13 15:43:09,374: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,374: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,374: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,374: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,375: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.5201630544880977 SPY buy | at price $307.03 with status fill[0m
+2024-05-13 15:43:09,376: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,376: root: INFO: Current backtesting datetime 2019-11-06 16:00:00-05:00
+2024-05-13 15:43:09,376: root: INFO: Current backtesting datetime 2019-12-06 09:30:00-05:00
+2024-05-13 15:43:09,377: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,377: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,378: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,378: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.463280502899677 SPY buy | with status new[0m
+2024-05-13 15:43:09,379: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,380: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,380: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,380: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,380: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.463280502899677 SPY buy | at price $314.12 with status fill[0m
+2024-05-13 15:43:09,382: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,382: root: INFO: Current backtesting datetime 2019-12-06 16:00:00-05:00
+2024-05-13 15:43:09,382: root: INFO: Current backtesting datetime 2020-01-05 09:30:00-05:00
+2024-05-13 15:43:09,382: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,383: root: INFO: Current backtesting datetime 2020-01-05 09:29:00-05:00
+2024-05-13 15:43:09,383: root: INFO: Current backtesting datetime 2020-01-05 09:29:00-05:00
+2024-05-13 15:43:09,383: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,384: root: INFO: Current backtesting datetime 2020-01-06 08:30:00-05:00
+2024-05-13 15:43:09,384: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,384: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,384: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,385: root: INFO: Current backtesting datetime 2020-01-06 09:30:00-05:00
+2024-05-13 15:43:09,385: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,385: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,385: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,386: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,386: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.414320830979006 SPY buy | with status new[0m
+2024-05-13 15:43:09,388: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,388: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,388: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,388: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,388: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.414320830979006 SPY buy | at price $320.49 with status fill[0m
+2024-05-13 15:43:09,390: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,391: root: INFO: Current backtesting datetime 2020-01-06 16:00:00-05:00
+2024-05-13 15:43:09,391: root: INFO: Current backtesting datetime 2020-02-05 09:30:00-05:00
+2024-05-13 15:43:09,391: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,391: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,392: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,392: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.328725690333928 SPY buy | with status new[0m
+2024-05-13 15:43:09,394: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,394: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,394: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,394: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,394: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.328725690333928 SPY buy | at price $332.27 with status fill[0m
+2024-05-13 15:43:09,396: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,397: root: INFO: Current backtesting datetime 2020-02-05 16:00:00-05:00
+2024-05-13 15:43:09,397: root: INFO: Current backtesting datetime 2020-03-06 09:30:00-05:00
+2024-05-13 15:43:09,397: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,397: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,398: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,398: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.6394872101424567 SPY buy | with status new[0m
+2024-05-13 15:43:09,400: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,400: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,400: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,401: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,401: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.6394872101424567 SPY buy | at price $293.15 with status fill[0m
+2024-05-13 15:43:09,402: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,403: root: INFO: Current backtesting datetime 2020-03-06 16:00:00-05:00
+2024-05-13 15:43:09,403: root: INFO: Current backtesting datetime 2020-04-05 09:30:00-05:00
+2024-05-13 15:43:09,403: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,404: root: INFO: Current backtesting datetime 2020-04-05 09:29:00-05:00
+2024-05-13 15:43:09,404: root: INFO: Current backtesting datetime 2020-04-05 09:29:00-05:00
+2024-05-13 15:43:09,404: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,404: root: INFO: Current backtesting datetime 2020-04-06 07:30:00-05:00
+2024-05-13 15:43:09,404: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,405: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,405: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,405: root: INFO: Current backtesting datetime 2020-04-06 08:30:00-05:00
+2024-05-13 15:43:09,405: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,406: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,406: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,407: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,407: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.8217996559394893 SPY buy | with status new[0m
+2024-05-13 15:43:09,409: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,409: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,409: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,409: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,410: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.8217996559394893 SPY buy | at price $274.21 with status fill[0m
+2024-05-13 15:43:09,411: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,412: root: INFO: Current backtesting datetime 2020-04-06 15:00:00-05:00
+2024-05-13 15:43:09,412: root: INFO: Current backtesting datetime 2020-05-06 08:30:00-05:00
+2024-05-13 15:43:09,412: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,413: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,413: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,413: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.68902053707423 SPY buy | with status new[0m
+2024-05-13 15:43:09,415: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,415: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,415: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,415: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,416: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.68902053707423 SPY buy | at price $287.75 with status fill[0m
+2024-05-13 15:43:09,417: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,417: root: INFO: Current backtesting datetime 2020-05-06 15:00:00-05:00
+2024-05-13 15:43:09,417: root: INFO: Current backtesting datetime 2020-06-05 08:30:00-05:00
+2024-05-13 15:43:09,418: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,418: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,419: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,419: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.439131332931982 SPY buy | with status new[0m
+2024-05-13 15:43:09,420: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,420: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,420: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,421: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,421: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.439131332931982 SPY buy | at price $317.23 with status fill[0m
+2024-05-13 15:43:09,423: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,423: root: INFO: Current backtesting datetime 2020-06-05 15:00:00-05:00
+2024-05-13 15:43:09,423: root: INFO: Current backtesting datetime 2020-07-05 08:30:00-05:00
+2024-05-13 15:43:09,423: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,424: root: INFO: Current backtesting datetime 2020-07-05 08:29:00-05:00
+2024-05-13 15:43:09,424: root: INFO: Current backtesting datetime 2020-07-05 08:29:00-05:00
+2024-05-13 15:43:09,424: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,424: root: INFO: Current backtesting datetime 2020-07-06 07:30:00-05:00
+2024-05-13 15:43:09,425: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,425: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,425: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,426: root: INFO: Current backtesting datetime 2020-07-06 08:30:00-05:00
+2024-05-13 15:43:09,426: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,427: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,427: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,427: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,428: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.453439176750036 SPY buy | with status new[0m
+2024-05-13 15:43:09,429: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,429: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,429: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,430: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,430: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.453439176750036 SPY buy | at price $315.38 with status fill[0m
+2024-05-13 15:43:09,432: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,432: root: INFO: Current backtesting datetime 2020-07-06 15:00:00-05:00
+2024-05-13 15:43:09,432: root: INFO: Current backtesting datetime 2020-08-05 08:30:00-05:00
+2024-05-13 15:43:09,433: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,433: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,433: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,433: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.3342754733256714 SPY buy | with status new[0m
+2024-05-13 15:43:09,435: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,435: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,435: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,435: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,436: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.3342754733256714 SPY buy | at price $331.48 with status fill[0m
+2024-05-13 15:43:09,437: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,437: root: INFO: Current backtesting datetime 2020-08-05 15:00:00-05:00
+2024-05-13 15:43:09,438: root: INFO: Current backtesting datetime 2020-09-04 08:30:00-05:00
+2024-05-13 15:43:09,438: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,438: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,439: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,439: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.235476984450047 SPY buy | with status new[0m
+2024-05-13 15:43:09,441: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,441: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,441: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,442: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.235476984450047 SPY buy | at price $346.13 with status fill[0m
+2024-05-13 15:43:09,443: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,444: root: INFO: Current backtesting datetime 2020-09-04 15:00:00-05:00
+2024-05-13 15:43:09,444: root: INFO: Current backtesting datetime 2020-10-04 08:30:00-05:00
+2024-05-13 15:43:09,444: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,445: root: INFO: Current backtesting datetime 2020-10-04 08:29:00-05:00
+2024-05-13 15:43:09,445: root: INFO: Current backtesting datetime 2020-10-04 08:29:00-05:00
+2024-05-13 15:43:09,445: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,445: root: INFO: Current backtesting datetime 2020-10-05 07:30:00-05:00
+2024-05-13 15:43:09,445: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,446: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,446: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,446: root: INFO: Current backtesting datetime 2020-10-05 08:30:00-05:00
+2024-05-13 15:43:09,446: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,447: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,447: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,448: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,448: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.2763838992872905 SPY buy | with status new[0m
+2024-05-13 15:43:09,450: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,450: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,450: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,450: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,450: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.2763838992872905 SPY buy | at price $339.91 with status fill[0m
+2024-05-13 15:43:09,452: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,452: root: INFO: Current backtesting datetime 2020-10-05 15:00:00-05:00
+2024-05-13 15:43:09,452: root: INFO: Current backtesting datetime 2020-11-04 08:30:00-05:00
+2024-05-13 15:43:09,453: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,453: root: INFO: Current backtesting datetime 2020-11-04 08:29:00-05:00
+2024-05-13 15:43:09,453: root: INFO: Current backtesting datetime 2020-11-04 08:29:00-05:00
+2024-05-13 15:43:09,453: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,454: root: INFO: Current backtesting datetime 2020-11-04 08:30:00-05:00
+2024-05-13 15:43:09,454: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,454: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,454: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,455: root: INFO: Current backtesting datetime 2020-11-04 09:30:00-05:00
+2024-05-13 15:43:09,455: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,456: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,456: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,456: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.2700395845673964 SPY buy | with status new[0m
+2024-05-13 15:43:09,458: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,458: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,458: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,459: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,459: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.2700395845673964 SPY buy | at price $340.86 with status fill[0m
+2024-05-13 15:43:09,461: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,461: root: INFO: Current backtesting datetime 2020-11-04 16:00:00-05:00
+2024-05-13 15:43:09,461: root: INFO: Current backtesting datetime 2020-12-04 09:30:00-05:00
+2024-05-13 15:43:09,461: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,461: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,462: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.106516509077976 SPY buy | with status new[0m
+2024-05-13 15:43:09,464: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,464: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,464: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,464: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,465: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.106516509077976 SPY buy | at price $367.32 with status fill[0m
+2024-05-13 15:43:09,466: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,466: root: INFO: Current backtesting datetime 2020-12-04 16:00:00-05:00
+2024-05-13 15:43:09,466: root: INFO: Current backtesting datetime 2021-01-03 09:30:00-05:00
+2024-05-13 15:43:09,467: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,467: root: INFO: Current backtesting datetime 2021-01-03 09:29:00-05:00
+2024-05-13 15:43:09,468: root: INFO: Current backtesting datetime 2021-01-03 09:29:00-05:00
+2024-05-13 15:43:09,468: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,468: root: INFO: Current backtesting datetime 2021-01-04 08:30:00-05:00
+2024-05-13 15:43:09,468: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,468: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,469: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,469: root: INFO: Current backtesting datetime 2021-01-04 09:30:00-05:00
+2024-05-13 15:43:09,469: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,470: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,471: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.0616707910167213 SPY buy | with status new[0m
+2024-05-13 15:43:09,473: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,473: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,473: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.0616707910167213 SPY buy | at price $375.31 with status fill[0m
+2024-05-13 15:43:09,475: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,475: root: INFO: Current backtesting datetime 2021-01-04 16:00:00-05:00
+2024-05-13 15:43:09,475: root: INFO: Current backtesting datetime 2021-02-03 09:30:00-05:00
+2024-05-13 15:43:09,476: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,477: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.0232341141187464 SPY buy | with status new[0m
+2024-05-13 15:43:09,478: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,478: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,478: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,479: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,479: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.0232341141187464 SPY buy | at price $382.44 with status fill[0m
+2024-05-13 15:43:09,481: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,481: root: INFO: Current backtesting datetime 2021-02-03 16:00:00-05:00
+2024-05-13 15:43:09,481: root: INFO: Current backtesting datetime 2021-03-05 09:30:00-05:00
+2024-05-13 15:43:09,482: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,482: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,482: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,483: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.0337635412959583 SPY buy | with status new[0m
+2024-05-13 15:43:09,485: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,485: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,485: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,485: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,486: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.0337635412959583 SPY buy | at price $380.46 with status fill[0m
+2024-05-13 15:43:09,487: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,488: root: INFO: Current backtesting datetime 2021-03-05 16:00:00-05:00
+2024-05-13 15:43:09,488: root: INFO: Current backtesting datetime 2021-04-04 09:30:00-05:00
+2024-05-13 15:43:09,488: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,489: root: INFO: Current backtesting datetime 2021-04-04 09:29:00-05:00
+2024-05-13 15:43:09,489: root: INFO: Current backtesting datetime 2021-04-04 09:29:00-05:00
+2024-05-13 15:43:09,489: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,490: root: INFO: Current backtesting datetime 2021-04-05 07:30:00-05:00
+2024-05-13 15:43:09,490: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,490: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,490: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,491: root: INFO: Current backtesting datetime 2021-04-05 08:30:00-05:00
+2024-05-13 15:43:09,491: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,492: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,492: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,492: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,493: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.906953965202367 SPY buy | with status new[0m
+2024-05-13 15:43:09,495: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,495: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,495: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,495: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,496: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.906953965202367 SPY buy | at price $405.76 with status fill[0m
+2024-05-13 15:43:09,497: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,498: root: INFO: Current backtesting datetime 2021-04-05 15:00:00-05:00
+2024-05-13 15:43:09,498: root: INFO: Current backtesting datetime 2021-05-05 08:30:00-05:00
+2024-05-13 15:43:09,498: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,499: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.860774077216867 SPY buy | with status new[0m
+2024-05-13 15:43:09,501: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,501: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,501: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,501: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,502: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.860774077216867 SPY buy | at price $415.83 with status fill[0m
+2024-05-13 15:43:09,503: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,503: root: INFO: Current backtesting datetime 2021-05-05 15:00:00-05:00
+2024-05-13 15:43:09,503: root: INFO: Current backtesting datetime 2021-06-04 08:30:00-05:00
+2024-05-13 15:43:09,504: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,504: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,505: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,505: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.839015233614046 SPY buy | with status new[0m
+2024-05-13 15:43:09,507: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,507: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,508: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,508: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.839015233614046 SPY buy | at price $420.75 with status fill[0m
+2024-05-13 15:43:09,509: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,510: root: INFO: Current backtesting datetime 2021-06-04 15:00:00-05:00
+2024-05-13 15:43:09,510: root: INFO: Current backtesting datetime 2021-07-04 08:30:00-05:00
+2024-05-13 15:43:09,510: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,511: root: INFO: Current backtesting datetime 2021-07-04 08:29:00-05:00
+2024-05-13 15:43:09,511: root: INFO: Current backtesting datetime 2021-07-04 08:29:00-05:00
+2024-05-13 15:43:09,511: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,512: root: INFO: Current backtesting datetime 2021-07-06 07:30:00-05:00
+2024-05-13 15:43:09,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,512: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,513: root: INFO: Current backtesting datetime 2021-07-06 08:30:00-05:00
+2024-05-13 15:43:09,513: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,514: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,514: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.784267981849664 SPY buy | with status new[0m
+2024-05-13 15:43:09,516: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,516: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,517: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.784267981849664 SPY buy | at price $433.66 with status fill[0m
+2024-05-13 15:43:09,518: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,519: root: INFO: Current backtesting datetime 2021-07-06 15:00:00-05:00
+2024-05-13 15:43:09,519: root: INFO: Current backtesting datetime 2021-08-05 08:30:00-05:00
+2024-05-13 15:43:09,519: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,520: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7502050415306627 SPY buy | with status new[0m
+2024-05-13 15:43:09,522: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,522: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,523: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,523: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7502050415306627 SPY buy | at price $442.1 with status fill[0m
+2024-05-13 15:43:09,524: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,525: root: INFO: Current backtesting datetime 2021-08-05 15:00:00-05:00
+2024-05-13 15:43:09,525: root: INFO: Current backtesting datetime 2021-09-04 08:30:00-05:00
+2024-05-13 15:43:09,526: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,526: root: INFO: Current backtesting datetime 2021-09-04 08:29:00-05:00
+2024-05-13 15:43:09,527: root: INFO: Current backtesting datetime 2021-09-04 08:29:00-05:00
+2024-05-13 15:43:09,527: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,527: root: INFO: Current backtesting datetime 2021-09-07 07:30:00-05:00
+2024-05-13 15:43:09,527: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,527: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,528: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,528: root: INFO: Current backtesting datetime 2021-09-07 08:30:00-05:00
+2024-05-13 15:43:09,528: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,529: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,529: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,529: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,530: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7160851524876215 SPY buy | with status new[0m
+2024-05-13 15:43:09,532: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,532: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,532: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,532: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,532: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7160851524876215 SPY buy | at price $450.89 with status fill[0m
+2024-05-13 15:43:09,534: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,534: root: INFO: Current backtesting datetime 2021-09-07 15:00:00-05:00
+2024-05-13 15:43:09,534: root: INFO: Current backtesting datetime 2021-10-07 08:30:00-05:00
+2024-05-13 15:43:09,535: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,535: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,535: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,535: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.760639028397542 SPY buy | with status new[0m
+2024-05-13 15:43:09,537: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,537: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,537: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,537: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,538: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.760639028397542 SPY buy | at price $439.48 with status fill[0m
+2024-05-13 15:43:09,539: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,540: root: INFO: Current backtesting datetime 2021-10-07 15:00:00-05:00
+2024-05-13 15:43:09,540: root: INFO: Current backtesting datetime 2021-11-06 08:30:00-05:00
+2024-05-13 15:43:09,540: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,541: root: INFO: Current backtesting datetime 2021-11-06 08:29:00-05:00
+2024-05-13 15:43:09,541: root: INFO: Current backtesting datetime 2021-11-06 08:29:00-05:00
+2024-05-13 15:43:09,541: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,541: root: INFO: Current backtesting datetime 2021-11-08 08:30:00-05:00
+2024-05-13 15:43:09,541: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,542: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,542: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,542: root: INFO: Current backtesting datetime 2021-11-08 09:30:00-05:00
+2024-05-13 15:43:09,542: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,543: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,543: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,544: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,544: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.6473613783983776 SPY buy | with status new[0m
+2024-05-13 15:43:09,546: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,546: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,546: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,546: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,546: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.6473613783983776 SPY buy | at price $469.7 with status fill[0m
+2024-05-13 15:43:09,548: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,548: root: INFO: Current backtesting datetime 2021-11-08 16:00:00-05:00
+2024-05-13 15:43:09,548: root: INFO: Current backtesting datetime 2021-12-08 09:30:00-05:00
+2024-05-13 15:43:09,549: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,549: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,549: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,550: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.650876124153645 SPY buy | with status new[0m
+2024-05-13 15:43:09,551: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,551: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,552: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,552: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,552: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.650876124153645 SPY buy | at price $468.7 with status fill[0m
+2024-05-13 15:43:09,554: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,554: root: INFO: Current backtesting datetime 2021-12-08 16:00:00-05:00
+2024-05-13 15:43:09,554: root: INFO: Current backtesting datetime 2022-01-07 09:30:00-05:00
+2024-05-13 15:43:09,554: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,555: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,555: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,555: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.6535220415824652 SPY buy | with status new[0m
+2024-05-13 15:43:09,557: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,557: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,557: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,558: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,558: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.6535220415824652 SPY buy | at price $467.95 with status fill[0m
+2024-05-13 15:43:09,559: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,560: root: INFO: Current backtesting datetime 2022-01-07 16:00:00-05:00
+2024-05-13 15:43:09,560: root: INFO: Current backtesting datetime 2022-02-06 09:30:00-05:00
+2024-05-13 15:43:09,560: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,561: root: INFO: Current backtesting datetime 2022-02-06 09:29:00-05:00
+2024-05-13 15:43:09,561: root: INFO: Current backtesting datetime 2022-02-06 09:29:00-05:00
+2024-05-13 15:43:09,561: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,561: root: INFO: Current backtesting datetime 2022-02-07 08:30:00-05:00
+2024-05-13 15:43:09,562: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,562: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,562: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,562: root: INFO: Current backtesting datetime 2022-02-07 09:30:00-05:00
+2024-05-13 15:43:09,562: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,563: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,563: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,564: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,564: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.721353568848338 SPY buy | with status new[0m
+2024-05-13 15:43:09,566: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,566: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,566: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,566: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,566: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.721353568848338 SPY buy | at price $449.51 with status fill[0m
+2024-05-13 15:43:09,568: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,569: root: INFO: Current backtesting datetime 2022-02-07 16:00:00-05:00
+2024-05-13 15:43:09,569: root: INFO: Current backtesting datetime 2022-03-09 09:30:00-05:00
+2024-05-13 15:43:09,569: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,569: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,570: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,570: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.8200254807418268 SPY buy | with status new[0m
+2024-05-13 15:43:09,572: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,572: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,572: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,573: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,573: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.8200254807418268 SPY buy | at price $425.14 with status fill[0m
+2024-05-13 15:43:09,575: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,575: root: INFO: Current backtesting datetime 2022-03-09 16:00:00-05:00
+2024-05-13 15:43:09,575: root: INFO: Current backtesting datetime 2022-04-08 09:30:00-05:00
+2024-05-13 15:43:09,576: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,576: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,576: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,577: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7272711508239937 SPY buy | with status new[0m
+2024-05-13 15:43:09,578: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,578: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,578: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,579: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,579: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7272711508239937 SPY buy | at price $447.97 with status fill[0m
+2024-05-13 15:43:09,581: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,581: root: INFO: Current backtesting datetime 2022-04-08 15:00:00-05:00
+2024-05-13 15:43:09,581: root: INFO: Current backtesting datetime 2022-05-08 09:30:00-05:00
+2024-05-13 15:43:09,581: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,582: root: INFO: Current backtesting datetime 2022-05-08 09:29:00-05:00
+2024-05-13 15:43:09,582: root: INFO: Current backtesting datetime 2022-05-08 09:29:00-05:00
+2024-05-13 15:43:09,582: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,583: root: INFO: Current backtesting datetime 2022-05-09 07:30:00-05:00
+2024-05-13 15:43:09,583: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,583: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,584: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,584: root: INFO: Current backtesting datetime 2022-05-09 08:30:00-05:00
+2024-05-13 15:43:09,584: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,585: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,585: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,585: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,586: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.9129414280308004 SPY buy | with status new[0m
+2024-05-13 15:43:09,587: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,588: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,588: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,588: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,588: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.9129414280308004 SPY buy | at price $404.49 with status fill[0m
+2024-05-13 15:43:09,590: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,590: root: INFO: Current backtesting datetime 2022-05-09 15:00:00-05:00
+2024-05-13 15:43:09,590: root: INFO: Current backtesting datetime 2022-06-08 08:30:00-05:00
+2024-05-13 15:43:09,591: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,591: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,592: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.8902762165083014 SPY buy | with status new[0m
+2024-05-13 15:43:09,593: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,593: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,593: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,594: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,594: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.8902762165083014 SPY buy | at price $409.34 with status fill[0m
+2024-05-13 15:43:09,596: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,596: root: INFO: Current backtesting datetime 2022-06-08 15:00:00-05:00
+2024-05-13 15:43:09,596: root: INFO: Current backtesting datetime 2022-07-08 08:30:00-05:00
+2024-05-13 15:43:09,596: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,597: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,597: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,597: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.9980005719363743 SPY buy | with status new[0m
+2024-05-13 15:43:09,599: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,599: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,599: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,599: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,600: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.9980005719363743 SPY buy | at price $387.27 with status fill[0m
+2024-05-13 15:43:09,601: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,601: root: INFO: Current backtesting datetime 2022-07-08 15:00:00-05:00
+2024-05-13 15:43:09,601: root: INFO: Current backtesting datetime 2022-08-07 08:30:00-05:00
+2024-05-13 15:43:09,602: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,602: root: INFO: Current backtesting datetime 2022-08-07 08:29:00-05:00
+2024-05-13 15:43:09,603: root: INFO: Current backtesting datetime 2022-08-07 08:29:00-05:00
+2024-05-13 15:43:09,603: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,603: root: INFO: Current backtesting datetime 2022-08-08 07:30:00-05:00
+2024-05-13 15:43:09,603: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,604: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,604: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,604: root: INFO: Current backtesting datetime 2022-08-08 08:30:00-05:00
+2024-05-13 15:43:09,604: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,605: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,605: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,606: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.877069664867704 SPY buy | with status new[0m
+2024-05-13 15:43:09,607: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,608: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,608: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,608: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.877069664867704 SPY buy | at price $412.22 with status fill[0m
+2024-05-13 15:43:09,610: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,610: root: INFO: Current backtesting datetime 2022-08-08 15:00:00-05:00
+2024-05-13 15:43:09,610: root: INFO: Current backtesting datetime 2022-09-07 08:30:00-05:00
+2024-05-13 15:43:09,611: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,611: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,611: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,611: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.9569681349467218 SPY buy | with status new[0m
+2024-05-13 15:43:09,613: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,613: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,613: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,614: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,614: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.9569681349467218 SPY buy | at price $395.39 with status fill[0m
+2024-05-13 15:43:09,615: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,616: root: INFO: Current backtesting datetime 2022-09-07 15:00:00-05:00
+2024-05-13 15:43:09,616: root: INFO: Current backtesting datetime 2022-10-07 08:30:00-05:00
+2024-05-13 15:43:09,616: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,616: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,617: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,617: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.0970963953253046 SPY buy | with status new[0m
+2024-05-13 15:43:09,619: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,619: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,619: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,619: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,619: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.0970963953253046 SPY buy | at price $368.97 with status fill[0m
+2024-05-13 15:43:09,621: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,621: root: INFO: Current backtesting datetime 2022-10-07 15:00:00-05:00
+2024-05-13 15:43:09,621: root: INFO: Current backtesting datetime 2022-11-06 08:30:00-05:00
+2024-05-13 15:43:09,622: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,622: root: INFO: Current backtesting datetime 2022-11-06 08:29:00-05:00
+2024-05-13 15:43:09,623: root: INFO: Current backtesting datetime 2022-11-06 08:29:00-05:00
+2024-05-13 15:43:09,623: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,623: root: INFO: Current backtesting datetime 2022-11-07 08:30:00-05:00
+2024-05-13 15:43:09,623: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,624: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,624: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,624: root: INFO: Current backtesting datetime 2022-11-07 09:30:00-05:00
+2024-05-13 15:43:09,624: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,625: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,625: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,625: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,626: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.048570800476522 SPY buy | with status new[0m
+2024-05-13 15:43:09,628: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,628: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,628: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,628: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,628: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.048570800476522 SPY buy | at price $377.71 with status fill[0m
+2024-05-13 15:43:09,630: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,630: root: INFO: Current backtesting datetime 2022-11-07 16:00:00-05:00
+2024-05-13 15:43:09,630: root: INFO: Current backtesting datetime 2022-12-07 09:30:00-05:00
+2024-05-13 15:43:09,631: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,631: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,631: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,631: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.9691699871114314 SPY buy | with status new[0m
+2024-05-13 15:43:09,633: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,633: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,633: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,634: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,634: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.9691699871114314 SPY buy | at price $392.94 with status fill[0m
+2024-05-13 15:43:09,635: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,635: root: INFO: Current backtesting datetime 2022-12-07 16:00:00-05:00
+2024-05-13 15:43:09,636: root: INFO: Current backtesting datetime 2023-01-06 09:30:00-05:00
+2024-05-13 15:43:09,636: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,636: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,637: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,637: asyncio: INFO: [Test] [32mNew order was created: market order of | 2.0223352478167356 SPY buy | with status new[0m
+2024-05-13 15:43:09,639: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,639: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,639: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,639: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,640: asyncio: INFO: [Test] [32mOrder was filled: market order of | 2.0223352478167356 SPY buy | at price $382.61 with status fill[0m
+2024-05-13 15:43:09,641: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,641: root: INFO: Current backtesting datetime 2023-01-06 16:00:00-05:00
+2024-05-13 15:43:09,642: root: INFO: Current backtesting datetime 2023-02-05 09:30:00-05:00
+2024-05-13 15:43:09,642: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,642: root: INFO: Current backtesting datetime 2023-02-05 09:29:00-05:00
+2024-05-13 15:43:09,643: root: INFO: Current backtesting datetime 2023-02-05 09:29:00-05:00
+2024-05-13 15:43:09,643: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,643: root: INFO: Current backtesting datetime 2023-02-06 08:30:00-05:00
+2024-05-13 15:43:09,643: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,644: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,644: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,644: root: INFO: Current backtesting datetime 2023-02-06 09:30:00-05:00
+2024-05-13 15:43:09,644: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,645: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,645: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,645: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,646: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.8882004036423163 SPY buy | with status new[0m
+2024-05-13 15:43:09,647: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,647: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,647: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,648: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,648: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.8882004036423163 SPY buy | at price $409.79 with status fill[0m
+2024-05-13 15:43:09,649: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,650: root: INFO: Current backtesting datetime 2023-02-06 16:00:00-05:00
+2024-05-13 15:43:09,650: root: INFO: Current backtesting datetime 2023-03-08 09:30:00-05:00
+2024-05-13 15:43:09,650: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,650: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,651: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,651: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.942231559759161 SPY buy | with status new[0m
+2024-05-13 15:43:09,653: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,653: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,653: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,653: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,653: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.942231559759161 SPY buy | at price $398.39 with status fill[0m
+2024-05-13 15:43:09,655: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,655: root: INFO: Current backtesting datetime 2023-03-08 16:00:00-05:00
+2024-05-13 15:43:09,655: root: INFO: Current backtesting datetime 2023-04-07 09:30:00-05:00
+2024-05-13 15:43:09,656: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,656: root: INFO: Current backtesting datetime 2023-04-07 09:29:00-05:00
+2024-05-13 15:43:09,657: root: INFO: Current backtesting datetime 2023-04-07 09:29:00-05:00
+2024-05-13 15:43:09,657: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,657: root: INFO: Current backtesting datetime 2023-04-10 07:30:00-05:00
+2024-05-13 15:43:09,657: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,657: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,658: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,658: root: INFO: Current backtesting datetime 2023-04-10 08:30:00-05:00
+2024-05-13 15:43:09,658: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,659: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,660: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.8860372474157299 SPY buy | with status new[0m
+2024-05-13 15:43:09,661: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,661: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,661: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,662: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,662: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.8860372474157299 SPY buy | at price $410.26 with status fill[0m
+2024-05-13 15:43:09,663: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,664: root: INFO: Current backtesting datetime 2023-04-10 15:00:00-05:00
+2024-05-13 15:43:09,664: root: INFO: Current backtesting datetime 2023-05-10 08:30:00-05:00
+2024-05-13 15:43:09,664: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,665: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,665: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.8782998825455623 SPY buy | with status new[0m
+2024-05-13 15:43:09,667: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,667: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,667: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,667: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,667: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.8782998825455623 SPY buy | at price $411.95 with status fill[0m
+2024-05-13 15:43:09,669: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,669: root: INFO: Current backtesting datetime 2023-05-10 15:00:00-05:00
+2024-05-13 15:43:09,669: root: INFO: Current backtesting datetime 2023-06-09 08:30:00-05:00
+2024-05-13 15:43:09,670: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,670: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,670: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,671: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7996224646961185 SPY buy | with status new[0m
+2024-05-13 15:43:09,673: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,673: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,673: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,673: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,673: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7996224646961185 SPY buy | at price $429.96 with status fill[0m
+2024-05-13 15:43:09,675: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,675: root: INFO: Current backtesting datetime 2023-06-09 15:00:00-05:00
+2024-05-13 15:43:09,675: root: INFO: Current backtesting datetime 2023-07-09 08:30:00-05:00
+2024-05-13 15:43:09,676: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,676: root: INFO: Current backtesting datetime 2023-07-09 08:29:00-05:00
+2024-05-13 15:43:09,677: root: INFO: Current backtesting datetime 2023-07-09 08:29:00-05:00
+2024-05-13 15:43:09,677: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,677: root: INFO: Current backtesting datetime 2023-07-10 07:30:00-05:00
+2024-05-13 15:43:09,677: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,677: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,678: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,678: root: INFO: Current backtesting datetime 2023-07-10 08:30:00-05:00
+2024-05-13 15:43:09,678: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,679: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,679: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,679: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,679: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7567615804251704 SPY buy | with status new[0m
+2024-05-13 15:43:09,681: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,681: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,681: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,682: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,682: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7567615804251704 SPY buy | at price $440.45 with status fill[0m
+2024-05-13 15:43:09,683: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,684: root: INFO: Current backtesting datetime 2023-07-10 15:00:00-05:00
+2024-05-13 15:43:09,684: root: INFO: Current backtesting datetime 2023-08-09 08:30:00-05:00
+2024-05-13 15:43:09,684: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,684: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,685: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,685: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7264232921935099 SPY buy | with status new[0m
+2024-05-13 15:43:09,687: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,687: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,687: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,687: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,687: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7264232921935099 SPY buy | at price $448.19 with status fill[0m
+2024-05-13 15:43:09,689: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,689: root: INFO: Current backtesting datetime 2023-08-09 15:00:00-05:00
+2024-05-13 15:43:09,689: root: INFO: Current backtesting datetime 2023-09-08 08:30:00-05:00
+2024-05-13 15:43:09,690: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,690: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,690: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,691: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.739190088015922 SPY buy | with status new[0m
+2024-05-13 15:43:09,692: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,693: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,693: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,693: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,693: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.739190088015922 SPY buy | at price $444.9 with status fill[0m
+2024-05-13 15:43:09,695: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,695: root: INFO: Current backtesting datetime 2023-09-08 15:00:00-05:00
+2024-05-13 15:43:09,695: root: INFO: Current backtesting datetime 2023-10-08 08:30:00-05:00
+2024-05-13 15:43:09,696: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,696: root: INFO: Current backtesting datetime 2023-10-08 08:29:00-05:00
+2024-05-13 15:43:09,696: root: INFO: Current backtesting datetime 2023-10-08 08:29:00-05:00
+2024-05-13 15:43:09,696: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,697: root: INFO: Current backtesting datetime 2023-10-09 07:30:00-05:00
+2024-05-13 15:43:09,697: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,697: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,697: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,698: root: INFO: Current backtesting datetime 2023-10-09 08:30:00-05:00
+2024-05-13 15:43:09,698: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,698: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,698: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,699: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,699: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7872353101578564 SPY buy | with status new[0m
+2024-05-13 15:43:09,701: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,701: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,701: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,702: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7872353101578564 SPY buy | at price $432.94 with status fill[0m
+2024-05-13 15:43:09,703: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,703: root: INFO: Current backtesting datetime 2023-10-09 15:00:00-05:00
+2024-05-13 15:43:09,703: root: INFO: Current backtesting datetime 2023-11-08 08:30:00-05:00
+2024-05-13 15:43:09,704: asyncio: INFO: [Test] [34mThe market is not currently open, skipping this trading iteration[0m
+2024-05-13 15:43:09,704: root: INFO: Current backtesting datetime 2023-11-08 08:29:00-05:00
+2024-05-13 15:43:09,705: root: INFO: Current backtesting datetime 2023-11-08 08:29:00-05:00
+2024-05-13 15:43:09,705: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,705: root: INFO: Current backtesting datetime 2023-11-08 08:30:00-05:00
+2024-05-13 15:43:09,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,705: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,706: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-13 15:43:09,706: root: INFO: Current backtesting datetime 2023-11-08 09:30:00-05:00
+2024-05-13 15:43:09,706: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-13 15:43:09,707: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,707: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,708: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,708: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.7684051677067465 SPY buy | with status new[0m
+2024-05-13 15:43:09,710: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,710: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,710: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,711: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,711: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.7684051677067465 SPY buy | at price $437.55 with status fill[0m
+2024-05-13 15:43:09,713: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,713: root: INFO: Current backtesting datetime 2023-11-08 16:00:00-05:00
+2024-05-13 15:43:09,713: root: INFO: Current backtesting datetime 2023-12-08 09:30:00-05:00
+2024-05-13 15:43:09,714: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,714: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,714: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,715: asyncio: INFO: [Test] [32mNew order was created: market order of | 1.6914389760773045 SPY buy | with status new[0m
+2024-05-13 15:43:09,716: asyncio: INFO: [Test] [34mTrading iteration ended at 2024-05-13 15:43:09[0m
+2024-05-13 15:43:09,716: asyncio: INFO: [Test] Getting historical prices for SPY, 1 bars, 
+2024-05-13 15:43:09,716: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,717: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-13 15:43:09,717: asyncio: INFO: [Test] [32mOrder was filled: market order of | 1.6914389760773045 SPY buy | at price $457.46 with status fill[0m
+2024-05-13 15:43:09,718: asyncio: INFO: [Test] [34mSleeping for 2592000 seconds[0m
+2024-05-13 15:43:09,719: root: INFO: Current backtesting datetime 2023-12-08 16:00:00-05:00
+2024-05-13 15:43:09,719: root: INFO: Current backtesting datetime 2024-01-07 09:30:00-05:00
+2024-05-13 15:43:09,719: root: INFO: Current backtesting datetime 2024-01-07 09:29:00-05:00
+2024-05-13 15:43:09,720: root: INFO: Current backtesting datetime 2024-01-07 09:29:00-05:00
+2024-05-13 15:43:09,720: asyncio: INFO: [Test] Executing the after_market_closes lifecycle method
+2024-05-13 15:43:09,720: asyncio: INFO: [Test] Executing the on_strategy_end lifecycle method
+2024-05-13 15:43:10,236: root: INFO: Backtesting finished
+2024-05-13 15:43:13,557: backtest_stats: INFO: Backtest took 0:00:05.274268 for a speed of 0.000

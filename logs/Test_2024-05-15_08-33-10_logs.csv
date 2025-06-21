@@ -1,0 +1,43 @@
+2024-05-15 08:33:10,420: asyncio: INFO: [Test] Executing the initialize lifecycle method
+2024-05-15 08:33:11,626: root: INFO: Current backtesting datetime 2019-01-02 08:30:00-05:00
+2024-05-15 08:33:11,627: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
+2024-05-15 08:33:11,628: root: INFO: Current backtesting datetime 2019-01-02 09:30:00-05:00
+2024-05-15 08:33:11,628: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
+2024-05-15 08:33:11,630: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-15 08:33:11[0m
+2024-05-15 08:33:11,642: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-15 08:33:12,060: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-15 08:33:12,061: asyncio: INFO: [Test] Getting historical prices for SPY, 365 bars, day
+2024-05-15 08:33:12,061: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-15 08:33:12,061: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-05-15 08:33:19,258: asyncio: ERROR: [Test] 'multiplier'
+2024-05-15 08:33:19,265: asyncio: ERROR: [Test] Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 923, in run
+    self._run_trading_session()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 871, in _run_trading_session
+    self._on_trading_iteration()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 262, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 286, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 397, in _on_trading_iteration
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/strategies/strategy_executor.py", line 369, in _on_trading_iteration
+    on_trading_iteration()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lumibot/tools/decorators.py", line 34, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/raynergoh/tradingbot/lumibotv4/tbot.py", line 54, in on_trading_iteration
+    multiplier = self.parameters["multiplier"]
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'multiplier'
+
+2024-05-15 08:33:19,266: asyncio: INFO: [Test] Executing the on_bot_crash event method
+2024-05-15 08:33:19,270: root: INFO: Backtesting finished
+2024-05-15 08:33:19,510: asyncio: WARNING: [Test] Cannot plot returns because the strategy returns are missing
+2024-05-15 08:33:19,645: asyncio: WARNING: [Test] Cannot create a tearsheet because the strategy returns are missing
+2024-05-15 08:33:19,645: backtest_stats: INFO: Backtest took 0:00:09.228055 for a speed of 0.000
