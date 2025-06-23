@@ -1,5 +1,14 @@
-API_KEY = "PKXK23480D2QZBWT5NTO"
-SECRET_KEY = "N3jmygiIPNo40a3vSCnxc9PGaIdUQXNaDWk6a7ng"
+import os
+
+# Securely load Alpaca API credentials from environment variables.
+# This prevents accidental exposure of sensitive keys in code repositories.
+
+API_KEY = os.getenv("ALPACA_API_KEY")
+SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
+
+if not API_KEY or not SECRET_KEY:
+    raise EnvironmentError("Missing Alpaca API credentials. "
+                           "Set ALPACA_API_KEY and ALPACA_SECRET_KEY as environment variables.")
 
 ALPACA_CONFIG = {
 # Put your own Alpaca key here:
