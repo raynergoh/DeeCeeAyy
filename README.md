@@ -4,7 +4,7 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 
 ---
 
-## 🔧 Features
+## Features
 
 - **Valuation-Aware DCA**: Allocates more capital when the market is "cheap" (by PE ratio), and less when "expensive".
 - **Automated Data Fetching**: Dynamically retrieves up-to-date S&P 500 PE ratios and prices.
@@ -32,7 +32,7 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
    Places buy orders for SPY via the Alpaca API at monthly intervals.
 
 ---
-## Set Up Instructions
+## 🔧 Set Up Instructions
 
 ### 1. Clone the Repository
 ```sh
@@ -67,4 +67,66 @@ export ALPACA_API_KEY="your_alpaca_api_key"
 export ALPACA_SECRET_KEY="your_alpaca_secret_key"
 ```
 
-**Important: Never share or commit your API keys or .env file to version control.**
+**🔒 Important: Never share or commit your API keys or .env file to version control.**
+
+---
+
+## CONFIGURATION
+
+You can modify strategy parameters directly in `tbot.py`:
+
+- multiplier: Controls how much to scale the DCA amount based on valuation score (default: 300)
+- DCA_amount: Base dollar amount to invest at each interval (default: 500)
+
+These can be adjusted directly in the script or passed when initializing the strategy.
+
+---
+
+## ▶️ RUNNING THE BOT
+
+### 🔁 Backtesting Mode (Recommended for first-time users)
+
+This will simulate trades using historical data.
+```sh
+python tbot.py
+```
+- By default, live = False in `tbot.py`, so it will run in backtest m  ode.
+- Backtest period: 1998-01-01 to 2015-12-31 (modifiable in tbot.py)
+- Results: Review logs and output for performance metrics.
+
+### 💹 Live Trading Mode
+To enable live trading, edit tbot.py and set:
+```sh
+if __name__ == "__main__":
+    live = True
+```
+Then run:
+```sh
+python tbot.py
+```
+**⚠️ Warning: Live trading will place real trades using your Alpaca account.
+Always start with paper trading before using real funds.**
+
+## 🔐 Security
+API keys should be stored in a .env file or set as environment variables.
+
+Add .env to your .gitignore to prevent accidental commits.
+
+Example .gitignore entry:
+
+```sh
+.env
+```
+
+## 🛠️ Troubleshooting
+Issue	Solution
+Missing API Keys	Ensure your .env file or environment variables are set correctly.
+Dependency Issues	Make sure all required packages are installed. Use Python 3.10 for compatibility with Lumibot.
+Data Fetch Errors	Verify your internet connection and ensure the data sources (e.g. Yahoo Finance) are available.
+
+## ⚠️ Disclaimer
+**This project is for educational and research purposes only.
+It is not financial advice. Use at your own risk.
+Past performance does not guarantee future results.**
+
+
