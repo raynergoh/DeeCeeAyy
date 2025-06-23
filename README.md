@@ -119,10 +119,13 @@ Example .gitignore entry:
 ```
 
 ## 🛠️ Troubleshooting
-Issue	Solution
-Missing API Keys	Ensure your .env file or environment variables are set correctly.
-Dependency Issues	Make sure all required packages are installed. Use Python 3.10 for compatibility with Lumibot.
-Data Fetch Errors	Verify your internet connection and ensure the data sources (e.g. Yahoo Finance) are available.
+
+| **Issue**                     | **Solution**                                                                 |
+|------------------------------|------------------------------------------------------------------------------|
+| Missing API Keys             | Ensure your `.env` file or environment variables are set correctly.          |
+| Dependency Issues            | Make sure all required packages are installed. Use **Python 3.10** for compatibility with Lumibot. |
+| Data Fetch Errors            | Verify your internet connection and ensure the data sources (e.g. Yahoo Finance) are available. |
+
 
 ## ⚠️ Disclaimer
 **This project is for educational and research purposes only.
