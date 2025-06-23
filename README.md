@@ -32,3 +32,39 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
    Places buy orders for SPY via the Alpaca API at monthly intervals.
 
 ---
+## Set Up Instructions
+
+### 1. Clone the Repository
+```sh
+git clone <your-repo-url>
+cd DeeCeeAyy
+```
+
+### 2. Install Dependencies
+```sh
+pip install -r requirements.txt
+```
+
+If you use a .env file for secrets (recommended), also install:
+
+```sh
+pip install python-dotenv
+```
+
+### 3. Configure API Keys
+
+Recommended: Use a .env file in your project directory:
+
+```sh
+ALPACA_API_KEY=your_alpaca_api_key
+ALPACA_SECRET_KEY=your_alpaca_secret_key
+```
+
+Or, set environment variables in your shell:
+
+```sh
+export ALPACA_API_KEY="your_alpaca_api_key"
+export ALPACA_SECRET_KEY="your_alpaca_secret_key"
+```
+
+**Important: Never share or commit your API keys or .env file to version control.**
