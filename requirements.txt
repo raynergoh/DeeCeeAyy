@@ -1,0 +1,5 @@
+lumibot
+yfinance
+pandas
+requests
+python-dotenv

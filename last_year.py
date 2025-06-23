@@ -1,25 +1,26 @@
-import datetime
+from datetime import datetime, timedelta
 
-def get_last_year(datetime):
-    date = list(datetime)
-    year = int(date[3])
-    if (date[:4] == ['2','0','0','0']):
-        date[0] = '1'
-        date[1] = '9'
-        date[2] = '9'
-        date[3] = '9'
-    elif (year == 0):
-        sub = int(date[2]) - 1
-        date[2] = str(sub)
-        date[3] = '9'
-    else:     
-        date[3] = str(year - 1)
-    lastYear = "".join(date)
-    return lastYear
-
+def get_last_year(date_str):
+    """
+    Returns the same date one year ago.
+    Args:
+        date_str (str): Date in 'YYYY-MM-DD' format.
+    Returns:
+        str: Date string for the same day last year.
+    """
+    try:
+        date = datetime.strptime(date_str, "%Y-%m-%d")
+        last_year_date = date.replace(year=date.year - 1)
+        return last_year_date.strftime("%Y-%m-%d")
+    except ValueError:
+        # Handles leap years and other edge cases by subtracting 365 days
+        date = datetime.strptime(date_str, "%Y-%m-%d")
+        last_year_date = date - timedelta(days=365)
+        return last_year_date.strftime("%Y-%m-%d")
+    
 # today = str(datetime.date.today())
-today = "1908-08-09"
+# today = "2008-02-29"
 
-lastyear = get_last_year(today)
+# lastyear = get_last_year(today)
 
-print(lastyear)
+# print(lastyear)

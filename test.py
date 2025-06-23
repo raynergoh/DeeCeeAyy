@@ -1,12 +1,18 @@
-from alpha_vantage.fundamentaldata import FundamentalData
-from alpha_vantage.timeseries import TimeSeries
+import os
+import requests
+from dotenv import load_dotenv  
 
-API_KEY ='DU9CW9ZHWOPF3POH'
+load_dotenv()  
 
-ts =TimeSeries(key = API_KEY,)
+API_KEY = os.getenv("APCA_API_KEY_ID")
+SECRET_KEY = os.getenv("APCA_API_SECRET_KEY")
+BASE_URL = "https://paper-api.alpaca.markets"
 
-fd = FundamentalData(key = API_KEY, output_format = 'pandas')
+headers = {
+    "APCA-API-KEY-ID": API_KEY,
+    "APCA-API-SECRET-KEY": SECRET_KEY
+}
 
-data = fd.get_company_overview(symbol = "AAPL")
-
-print(data[0].T)
+response = requests.get(f"{BASE_URL}/v2/positions", headers=headers)
+print("Status:", response.status_code)
+print("Response:", response.text)
