@@ -53,7 +53,7 @@ pip install python-dotenv
 
 ### 3. Configure API Keys
 
-Recommended: Use a .env file in your project directory:
+Recommended: Use a `.env` file in your project directory:
 
 ```sh
 ALPACA_API_KEY=your_alpaca_api_key
@@ -75,8 +75,8 @@ export ALPACA_SECRET_KEY="your_alpaca_secret_key"
 
 You can modify strategy parameters directly in `tbot.py`:
 
-- multiplier: Controls how much to scale the DCA amount based on valuation score (default: 300)
-- DCA_amount: Base dollar amount to invest at each interval (default: 500)
+- multiplier: Controls how much to scale the DCA amount based on valuation score **(default: 300)**
+- DCA_amount: Base dollar amount to invest at each interval **(default: 500)**
 
 These can be adjusted directly in the script or passed when initializing the strategy.
 
@@ -95,7 +95,7 @@ python tbot.py
 - Results: Review logs and output for performance metrics.
 
 ### 💹 Live Trading Mode
-To enable live trading, edit tbot.py and set:
+To enable live trading, edit `tbot.py` and set:
 ```sh
 if __name__ == "__main__":
     live = True
@@ -108,11 +108,11 @@ python tbot.py
 Always start with paper trading before using real funds.**
 
 ## 🔐 Security
-API keys should be stored in a .env file or set as environment variables.
+API keys should be stored in a `.env` file or set as environment variables.
 
-Add .env to your .gitignore to prevent accidental commits.
+Add `.env` to your `.gitignore` to prevent accidental commits.
 
-Example .gitignore entry:
+Example `.gitignore` entry:
 
 ```sh
 .env
