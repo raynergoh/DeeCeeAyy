@@ -1,8 +1,10 @@
 from datetime import datetime, timedelta
 from config import ALPACA_CONFIG
 from last_year import get_last_year
+from scalar import to_scalar
+from previous_trading_day import get_previous_trading_day
 import logging
-
+import pandas as pd
 import yfinance as yf
 
 from lumibot.backtesting import YahooDataBacktesting
@@ -28,7 +30,7 @@ class DCA(Strategy):
 
     def initialize(self):
         # Will make on_trading_iteration() run every 30Days
-        self.sleeptime = "31D"
+        self.sleeptime = "1M"
         self.symbol = "SPY"
         self.multiplier = self.parameters["multiplier"]
         self.DCA_amount = self.parameters["DCA_amount"]
@@ -36,6 +38,7 @@ class DCA(Strategy):
     def fetch_pe_ratio(self, date):
         """
         Fetches the SPY PE ratio for a given date using yfinance.
+        Note: yfinance does not provide historical PE ratios, only the current one.
         Args:
             date (str): Date in 'YYYY-MM-DD' format.
         Returns:
@@ -43,7 +46,6 @@ class DCA(Strategy):
         """
         try:
             spy = yf.Ticker(self.symbol)
-            hist = spy.history(start=date, end=date)
             pe_ratio = spy.info.get("trailingPE", None)
             if pe_ratio is None:
                 logging.warning(f"PE ratio not available for {date}.")
@@ -51,12 +53,30 @@ class DCA(Strategy):
         except Exception as e:
             logging.error(f"Error fetching PE ratio for {date}: {e}")
             return None
+    
+    def is_first_trading_day_of_month(self, date_str):
+        """Return True if the given date is the first trading day of its month."""
+        date = pd.to_datetime(date_str)
+        # Generate all business days for the month
+        month_start = date.replace(day=1)
+        month_end = (month_start + pd.offsets.MonthEnd(0))
+        business_days = pd.bdate_range(start=month_start, end=month_end)
+        if len(business_days) == 0:
+            return False
+        return date == business_days[0]
 
     def on_trading_iteration(self):
         try:
             currentDateTime = str(self.get_datetime())
             currentDate = currentDateTime[:10]
-            firstDayOfMonth = currentDate[:8] + '01'
+            trading_date = get_previous_trading_day(currentDate)
+
+            # Only proceed if this is the first trading day of the month
+            if not self.is_first_trading_day_of_month(trading_date):
+                logging.info(f"{trading_date} is not the first trading day of the month. Skipping iteration.")
+                return
+            
+            firstDayOfMonth = trading_date[:8] + '01'
             dateLastYear = get_last_year(firstDayOfMonth)
 
             # Fetch current and last year's PE ratios dynamically
@@ -67,19 +87,46 @@ class DCA(Strategy):
                 logging.warning("Missing PE data. Skipping this iteration.")
                 return
 
-            currentPrice = self.get_last_price(self.symbol)
             # Get the data for SPY for the last 365 days
-            bars = self.get_historical_prices(self.symbol, 365, "day")
+            # Fetch historical prices (ensure enough lookback for 1 year ago)
+            bars = self.get_historical_prices(self.symbol, 366, "day")
             df = bars.df
-            first_ohlc = df.iloc[1]  # 1 year ago
-            lastYearPrice = first_ohlc['close']
 
-            changeInPrice = (float(currentPrice) - float(lastYearPrice)) / float(lastYearPrice)
-            changeInPE = (float(currentPE) - float(lastYearPE)) / float(lastYearPE)
-            score = changeInPrice - changeInPE
+            # Check for empty DataFrame
+            if df.empty:
+                logging.warning("No historical price data available. Skipping this iteration.")
+                return
 
-            amountToInvest = self.DCA_amount - score * self.multiplier
-            orderQty = amountToInvest / currentPrice
+            # Get last available price for trading_date
+            if trading_date in df.index:
+                currentPrice = df.loc[trading_date]['close']
+            elif not df.empty:
+                # fallback: get last available close if DataFrame is not empty
+                currentPrice = df['close'].iloc[-1]
+            else:
+                logging.warning("No current price data. Skipping this iteration.")
+                return
+
+            # Get price 1 year ago (find the row closest to trading_date minus 1 year)
+            one_year_ago = (datetime.strptime(trading_date, "%Y-%m-%d") - timedelta(days=365)).strftime("%Y-%m-%d")
+            one_year_ago_trading = get_previous_trading_day(one_year_ago)
+            if one_year_ago_trading in df.index:
+                lastYearPrice = df.loc[one_year_ago_trading]['close']
+            elif not df.empty:
+                # fallback to earliest available
+                lastYearPrice = df['close'].iloc[0]
+            else:
+                logging.warning("No last year price data. Skipping this iteration.")
+                return
+
+            cp = to_scalar(currentPrice)
+            lyp = to_scalar(lastYearPrice)
+            changeInPrice = (cp - lyp) / lyp
+            changeInPE = (float(currentPE) - float(lastYearPE)) / float(lastYearPE)            
+            valuation_delta = changeInPrice - changeInPE
+
+            amountToInvest = self.DCA_amount - valuation_delta * self.multiplier
+            orderQty = amountToInvest / cp
 
             order = self.create_order(self.symbol, orderQty, "buy")
             self.submit_order(order)
@@ -97,9 +144,9 @@ if __name__ == "__main__":
 
     if not live:
         # Backtest this strategy
-        backtesting_start = datetime(1998, 1, 1)
+        backtesting_start = datetime(2015, 1, 1)
         backtesting_end = datetime(2015, 12, 31)
-        strategy.run_backtest(
+        strategy.backtest(
             YahooDataBacktesting,
             backtesting_start,
             backtesting_end,
