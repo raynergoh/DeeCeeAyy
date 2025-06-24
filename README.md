@@ -35,7 +35,7 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 
 ## ⚖️ How the Bot Uses Market Valuation to Adjust DCA
 
-<img src="mm-chart-2024-05-13_US - S&amp;P 500 Price vs. PE Ratio -960x540.png" alt="S&P 500 vs PE Ratio" width="700"/>
+<img src="S&P 500 Price vs PE Ratio.png" alt="S&P 500 vs PE Ratio" width="700"/>
 
 The chart above shows the **difference between the S&P 500 index price and its P/E ratio** (blue bars), alongside the actual S&P 500 index level (red line). This difference serves as a **relative valuation signal**.
 
