@@ -30,6 +30,46 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 
 4. **Executes Trades Automatically**  
    Places buy orders for SPY via the Alpaca API at monthly intervals, on the first trading day of each month.
+   
+---
+
+## ⚖️ How the Bot Uses Market Valuation to Adjust DCA
+
+<img src="mm-chart-2024-05-13_US - S&amp;P 500 Price vs. PE Ratio -960x540.png" alt="S&P 500 vs PE Ratio" width="700"/>
+
+The chart above shows the **difference between the S&P 500 index price and its P/E ratio** (blue bars), alongside the actual S&P 500 index level (red line). This difference serves as a **relative valuation signal**.
+
+### 💡 How It Works
+
+The trading bot dynamically adjusts the dollar-cost-averaging (DCA) investment amount based on how expensive or cheap the market appears, using the following principle:
+
+- 📉 **If price growth is less than PE growth**: The market is relatively undervalued → **invest more**
+- 📈 **If price growth exceeds PE growth**: The market is relatively overvalued → **invest less**
+
+This prevents over-investing during market exuberance and encourages heavier investment during corrections or undervaluations.
+
+---
+
+## 🔢 What is the Multiplier?
+
+The `multiplier` in the config is a **sensitivity factor** that controls how aggressively the investment amount is adjusted based on valuation.
+
+### For example:
+
+If your base DCA amount is `$500` and the valuation delta is `+0.02`, then:
+
+```python
+adjusted_amount = DCA_amount + (multiplier * valuation_delta)
+                = 500 + (300 * 0.02)
+                = $506
+```
+This means:
+
+- A higher multiplier makes the bot more responsive to valuation changes
+- A lower multiplier makes it more conservative
+
+**⚠️ Choose a multiplier that matches your risk tolerance and market outlook**
+
 
 ---
 ## 🔧 Set Up Instructions
@@ -75,7 +115,7 @@ export ALPACA_SECRET_KEY="your_alpaca_secret_key"
 
 You can modify strategy parameters directly in `tbot.py`:
 
-- multiplier: Controls how much to scale the DCA amount based on valuation score **(default: 300)**
+- multiplier: Controls how much to scale the DCA amount based on valuation delta **(default: 300)**
 - DCA_amount: Base dollar amount to invest at each interval **(default: 500)**
 
 These can be adjusted directly in the script or passed when initializing the strategy.
