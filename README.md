@@ -29,7 +29,7 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
    - If expensive, decreases DCA.
 
 4. **Executes Trades Automatically**  
-   Places buy orders for SPY via the Alpaca API at monthly intervals.
+   Places buy orders for SPY via the Alpaca API at monthly intervals, on the first trading day of each month.
 
 ---
 ## 🔧 Set Up Instructions
@@ -45,7 +45,7 @@ cd DeeCeeAyy
 pip install -r requirements.txt
 ```
 
-If you use a .env file for secrets (recommended), also install:
+If you use a `.env` file for secrets (recommended), also install:
 
 ```sh
 pip install python-dotenv
@@ -71,7 +71,7 @@ export ALPACA_SECRET_KEY="your_alpaca_secret_key"
 
 ---
 
-## CONFIGURATION
+## ⚙️ CONFIGURATION
 
 You can modify strategy parameters directly in `tbot.py`:
 
