@@ -1,4 +1,4 @@
-# 📈 DCA Valuation-Aware Trading Bot
+# 📈 Custom DCA Trading Bot
 
 A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) investments in the S&P 500 (SPY) based on market valuation, using the difference between the S&P 500 index price and its PE ratio as a relative value indicator.
 
@@ -156,6 +156,8 @@ python tbot.py
 **⚠️ Warning: Live trading will place real trades using your Alpaca account.
 Always start with paper trading before using real funds.**
 
+---
+
 ## 🔐 Security
 API keys should be stored in a `.env` file or set as environment variables.
 
@@ -167,6 +169,8 @@ Example `.gitignore` entry:
 .env
 ```
 
+---
+
 ## 🛠️ Troubleshooting
 
 | **Issue**                     | **Solution**                                                                 |
@@ -176,6 +180,47 @@ Example `.gitignore` entry:
 | Data Fetch Errors            | Verify your internet connection and ensure the data sources (e.g. Yahoo Finance) are available. |
 | yfinance/Benchmark Data Gaps |	If you see missing trades or skipped months, this may be due to Yahoo Finance data gaps. Consider using a more reliable data source for research-grade backtesting.|
 
+---
+
+## 📊 Strategy Performance Comparison
+This section summarizes the performance comparison between the Custom DCA Strategy and the Baseline Traditional DCA Strategy based on backtesting results from 2005 to 2015.
+The Traditional DCA strategy invests $500 on the first trading day on each month, 
+While Custom DCA strategy uses the following parameters:
+- **multiplier: 400**
+- **DCA_amount: 500**
+- **min_investment_pct: 0.8**
+
+### Equity Curve Comparison
+![Traditional DCA vs Custom DeeCeeAyy](equity_curve_comparison.png)
+*Source: I backtested myself*
+The equity curves of both strategies were plotted over the backtest period, showing portfolio value growth over time. The custom DCA strategy generally achieved higher portfolio values, indicating better growth and risk management.
+
+## Key Performance Metrics
+
+| **Metric**               | **Baseline DCA** | **Custom DCA** | **Notes**                                        |
+|--------------------------|------------------|----------------|--------------------------------------------------|
+| **Total Return**         | 43%              | 64%            | Custom DCA achieved higher total returns         |
+| **CAGR**                 | 3.3%             | 4.6%           | Custom DCA had higher annualized returns         |
+| **Sharpe Ratio**         | 0.43             | 0.51           | Better risk-adjusted returns for Custom DCA      |
+| **Sortino Ratio**        | 0.60             | 0.71           | Custom DCA better at managing downside risk      |
+| **Max Drawdown**         | -18.27%          | -18.36%        | Similar drawdown levels                          |
+| **Volatility (ann.)**    | 7.92%            | 9.49%          | Baseline DCA slightly less volatile              |
+| **Calmar Ratio**         | 0.18             | 0.25           | Custom DCA better return per drawdown            |
+| **Recovery Factor**      | 2.14             | 2.96           | Custom DCA recovers faster from drawdowns        |
+| **Serenity Index**       | 0.34             | 0.68           | Custom DCA provides smoother performance         |
+| **Ulcer Index**          | 0.05             | 0.05           | Similar ulcer index (drawdown severity)          |
+| **Longest Drawdown Days**| 1204             | 822            | Custom DCA recovers quicker from losses          |
+
+
+### Interpretation
+- The Custom DCA Strategy outperforms the Baseline DCA in most risk-adjusted metrics, indicating a better balance of return and risk.
+- Although the Custom DCA has slightly higher volatility, it compensates with higher returns and faster recovery from drawdowns.
+- The Baseline DCA invests a fixed amount consistently, while the Custom DCA adjusts investment amounts based on market valuation, with a minimum investment threshold to avoid underinvestment.
+
+### Conclusion
+The Custom DCA strategy provides a superior risk-adjusted return profile compared to the traditional DCA, making it a compelling choice for investors seeking to balance growth and risk.
+
+---
 
 ## ⚠️ Disclaimer
 **This project is for educational and research purposes only.
