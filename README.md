@@ -134,14 +134,9 @@ This will simulate trades using historical data.
 ```sh
 python tbot.py
 ```
-<<<<<<< HEAD
+
 - By default, live = False in `tbot.py`, so it will run in backtest mode.
-- Backtest period: 1998-01-01 to 2015-12-31 (modifiable in tbot.py)
-=======
-- By default, live = False in `tbot.py`, so it will run in backtest m  ode.
 - Backtest period: 2005-01-01 to 2015-12-31 (modifiable in tbot.py)
->>>>>>> 3363351824d88922d94bca834ef91eebcb28c2bf
-- Results: Review logs and output for performance metrics.
 
 ### 💹 Live Trading Mode
 To enable live trading, edit `tbot.py` and set:
@@ -192,7 +187,8 @@ While Custom DCA strategy uses the following parameters:
 
 ### Equity Curve Comparison
 ![Traditional DCA vs Custom DeeCeeAyy](equity_curve_comparison.png)
-*Source: I backtested myself*
+*Source: I backtested it myself*
+
 The equity curves of both strategies were plotted over the backtest period, showing portfolio value growth over time. The custom DCA strategy generally achieved higher portfolio values, indicating better growth and risk management.
 
 ## Key Performance Metrics
