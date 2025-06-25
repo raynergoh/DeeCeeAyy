@@ -130,7 +130,7 @@ This will simulate trades using historical data.
 ```sh
 python tbot.py
 ```
-- By default, live = False in `tbot.py`, so it will run in backtest m  ode.
+- By default, live = False in `tbot.py`, so it will run in backtest mode.
 - Backtest period: 1998-01-01 to 2015-12-31 (modifiable in tbot.py)
 - Results: Review logs and output for performance metrics.
 

@@ -1,6 +1,0 @@
-2024-05-13 16:46:50,206: asyncio: INFO: [Test] Executing the initialize lifecycle method
-2024-05-13 16:46:51,417: root: INFO: Current backtesting datetime 2018-01-02 08:30:00-05:00
-2024-05-13 16:46:51,420: asyncio: INFO: [Test] Executing the before_market_opens lifecycle method
-2024-05-13 16:46:51,421: root: INFO: Current backtesting datetime 2018-01-02 09:30:00-05:00
-2024-05-13 16:46:51,421: asyncio: INFO: [Test] Executing the before_starting_trading lifecycle method
-2024-05-13 16:46:51,423: asyncio: INFO: [Test] [34mExecuting the on_trading_iteration lifecycle method at 2024-05-13 16:46:51[0m

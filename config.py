@@ -13,7 +13,7 @@ if not API_KEY or not SECRET_KEY:
 ALPACA_CONFIG = {
     "API_KEY": API_KEY,
     "API_SECRET": SECRET_KEY,
-    # Set this to False to use a live account
+    # If you want to go live, you must change this. It is currently set for paper trading
     "PAPER": True,  
 }
 
