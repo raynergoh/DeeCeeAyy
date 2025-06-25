@@ -179,8 +179,10 @@ Example `.gitignore` entry:
 
 ## 📊 Strategy Performance Comparison
 This section summarizes the performance comparison between the Custom DCA Strategy and the Baseline Traditional DCA Strategy based on backtesting results from 2005 to 2015.
-The Traditional DCA strategy invests $500 on the first trading day on each month, 
-While Custom DCA strategy uses the following parameters:
+The Traditional DCA invests a fixed amount consistently, while the Custom DCA adjusts investment amounts based on market valuation, with a minimum investment threshold to avoid underinvestment.
+
+
+The Custom DCA strategy uses the following parameters:
 - **multiplier: 400**
 - **DCA_amount: 500**
 - **min_investment_pct: 0.8**
@@ -193,14 +195,14 @@ The equity curves of both strategies were plotted over the backtest period, show
 
 ## Key Performance Metrics
 
-| **Metric**               | **Baseline DCA** | **Custom DCA** | **Notes**                                        |
+| **Metric**               | **Traditional DCA** | **Custom DCA** | **Notes**                                        |
 |--------------------------|------------------|----------------|--------------------------------------------------|
 | **Total Return**         | 43%              | 64%            | Custom DCA achieved higher total returns         |
 | **CAGR**                 | 3.3%             | 4.6%           | Custom DCA had higher annualized returns         |
 | **Sharpe Ratio**         | 0.43             | 0.51           | Better risk-adjusted returns for Custom DCA      |
 | **Sortino Ratio**        | 0.60             | 0.71           | Custom DCA better at managing downside risk      |
 | **Max Drawdown**         | -18.27%          | -18.36%        | Similar drawdown levels                          |
-| **Volatility (ann.)**    | 7.92%            | 9.49%          | Baseline DCA slightly less volatile              |
+| **Volatility (ann.)**    | 7.92%            | 9.49%          | Traditional DCA slightly less volatile              |
 | **Calmar Ratio**         | 0.18             | 0.25           | Custom DCA better return per drawdown            |
 | **Recovery Factor**      | 2.14             | 2.96           | Custom DCA recovers faster from drawdowns        |
 | **Serenity Index**       | 0.34             | 0.68           | Custom DCA provides smoother performance         |
@@ -209,9 +211,8 @@ The equity curves of both strategies were plotted over the backtest period, show
 
 
 ### Interpretation
-- The Custom DCA Strategy outperforms the Baseline DCA in most risk-adjusted metrics, indicating a better balance of return and risk.
+- The Custom DCA Strategy outperforms the Traditional DCA in most risk-adjusted metrics, indicating a better balance of return and risk.
 - Although the Custom DCA has slightly higher volatility, it compensates with higher returns and faster recovery from drawdowns.
-- The Baseline DCA invests a fixed amount consistently, while the Custom DCA adjusts investment amounts based on market valuation, with a minimum investment threshold to avoid underinvestment.
 
 ### Conclusion
 The Custom DCA strategy provides a superior risk-adjusted return profile compared to the traditional DCA, making it a compelling choice for investors seeking to balance growth and risk.
