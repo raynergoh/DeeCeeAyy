@@ -7,10 +7,11 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 ## Features
 
 - **Valuation-Aware DCA**: Allocates more capital when the market is "cheap" (by PE ratio), and less when "expensive".
+- **Minimum Investment Threshold**: Never invests less than a configurable percentage (e.g., 80%) of the DCA amount, ensuring consistent market exposure even in expensive conditions.
 - **Automated Data Fetching**: Dynamically retrieves up-to-date S&P 500 PE ratios and prices.
 - **Backtesting Support**: Evaluate strategy performance on historical data.
 - **Live Trading Capability**: Integrates with Alpaca for real or paper trading.
-- **Configurable Parameters**: Easily adjust DCA amount and valuation sensitivity.
+- **Configurable Parameters**: Easily adjust DCA amount and valuation sensitivity, and minimum investment threshold.
 - **Secure Credentials**: API keys are managed via environment variables or a `.env` file.
 - **Robust Logging**: All trades and errors are logged for transparency.
 
@@ -19,14 +20,14 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 ## ⚙️ How It Works
 
 1. **Fetches PE Data**  
-   Gets current and year-ago S&P 500 PE ratios using dynamic data sources (e.g., Yahoo Finance via `yfinance`).
+   Gets current and year-ago S&P 500 PE ratios using dynamic data sources (e.g., Yahoo Finance via `yfinance`or Multpl.com).
 
 2. **Calculates Relative Expensiveness**  
    Compares the year-over-year (YoY) change in index price to the YoY change in PE ratio.
 
 3. **Adjusts Investment Amount**  
    - If the market is relatively cheap (price growth < PE growth), increases DCA.
-   - If expensive, decreases DCA.
+   - If expensive, decreases DCA, but never below the minimum investment threshold (e.g., 80% of the base DCA amount).
 
 4. **Executes Trades Automatically**  
    Places buy orders for SPY via the Alpaca API at monthly intervals, on the first trading day of each month.
@@ -35,7 +36,9 @@ A Python trading bot that dynamically adjusts dollar-cost-averaging (DCA) invest
 
 ## ⚖️ How the Bot Uses Market Valuation to Adjust DCA
 
-<img src="mm-chart-2024-05-13_US - S&amp;P 500 Price vs. PE Ratio -960x540.png" alt="S&P 500 vs PE Ratio" width="700"/>
+![S&P 500 vs PE Ratio](chart.png)
+*Source: [MacroMicro.me](https://www.macromicro.me) – US S&P 500 Price vs. PE Ratio Chart*
+
 
 The chart above shows the **difference between the S&P 500 index price and its P/E ratio** (blue bars), alongside the actual S&P 500 index level (red line). This difference serves as a **relative valuation signal**.
 
@@ -56,17 +59,17 @@ The `multiplier` in the config is a **sensitivity factor** that controls how agg
 
 ### For example:
 
-If your base DCA amount is `$500` and the valuation delta is `+0.02`, then:
+If your base DCA amount is `$500` and the valuation delta is `+0.02`, and your minimum investment threshold is 70%, then:
 
 ```python
-adjusted_amount = DCA_amount + (multiplier * valuation_delta)
-                = 500 + (300 * 0.02)
-                = $506
+min_investment = 0.7 * DCA_amount
+adjusted_amount = max(DCA_amount - (multiplier * valuation_delta), min_investment)
 ```
-This means:
 
+So, if the calculated amount falls below $350, the bot will still invest at least $350.
 - A higher multiplier makes the bot more responsive to valuation changes
 - A lower multiplier makes it more conservative
+- The minimum investment threshold prevents chronic underinvestment
 
 **⚠️ Choose a multiplier that matches your risk tolerance and market outlook**
 
@@ -117,6 +120,7 @@ You can modify strategy parameters directly in `tbot.py`:
 
 - multiplier: Controls how much to scale the DCA amount based on valuation delta **(default: 300)**
 - DCA_amount: Base dollar amount to invest at each interval **(default: 500)**
+- min_investment_pct: The minimum fraction of the DCA amount to invest each month (e.g., 0.7 for 70%). **(default: 0.7)**
 
 These can be adjusted directly in the script or passed when initializing the strategy.
 
@@ -130,8 +134,13 @@ This will simulate trades using historical data.
 ```sh
 python tbot.py
 ```
+<<<<<<< HEAD
 - By default, live = False in `tbot.py`, so it will run in backtest mode.
 - Backtest period: 1998-01-01 to 2015-12-31 (modifiable in tbot.py)
+=======
+- By default, live = False in `tbot.py`, so it will run in backtest m  ode.
+- Backtest period: 2005-01-01 to 2015-12-31 (modifiable in tbot.py)
+>>>>>>> 3363351824d88922d94bca834ef91eebcb28c2bf
 - Results: Review logs and output for performance metrics.
 
 ### 💹 Live Trading Mode
@@ -165,6 +174,7 @@ Example `.gitignore` entry:
 | Missing API Keys             | Ensure your `.env` file or environment variables are set correctly.          |
 | Dependency Issues            | Make sure all required packages are installed. Use **Python 3.10** for compatibility with Lumibot. |
 | Data Fetch Errors            | Verify your internet connection and ensure the data sources (e.g. Yahoo Finance) are available. |
+| yfinance/Benchmark Data Gaps |	If you see missing trades or skipped months, this may be due to Yahoo Finance data gaps. Consider using a more reliable data source for research-grade backtesting.|
 
 
 ## ⚠️ Disclaimer
