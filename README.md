@@ -165,6 +165,20 @@ Example `.gitignore` entry:
 ```
 
 ---
+## 🛠️ Tech Stack
+This project is built with the following technologies and libraries:
+- Python 3.10+ — Core programming language for all strategy logic and scripting
+- Lumibot — Algorithmic trading framework for backtesting and live trading
+- yfinance — For fetching historical SPY price data from Yahoo Finance
+- pandas — Data manipulation and analysis
+- matplotlib — Visualization for equity curve and performance charts
+- Alpaca API — Brokerage integration for live/paper trading
+- python-dotenv — Secure management of API keys and environment variables
+- logging — Robust logging of strategy actions and errors
+- Other libraries:
+     - requests — For web data fetching (e.g., PE ratios from Multpl.com)
+     - datetime — Date and time handling
+---
 
 ## 🛠️ Troubleshooting
 
